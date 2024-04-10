@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8627378c25264cffb9fa154929850956" Name="Diagram1">
+        <EntityTypeShape EntityType="WebDienTuModel.Admin" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebDienTuModel.CHITIETDONTHANG" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebDienTuModel.DanhGia" Width="1.5" PointX="8.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebDienTuModel.DONDATHANG" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebDienTuModel.KHACHHANG" Width="1.5" PointX="0.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebDienTuModel.LoaiSP" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebDienTuModel.NHACUNGCAP" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebDienTuModel.SANPHAM" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebDienTuModel.sysdiagram" Width="1.5" PointX="5.75" PointY="7.625" IsExpanded="true" />
+        <AssociationConnector Association="WebDienTuModel.FK_AD" ManuallyRouted="false" />
+        <AssociationConnector Association="WebDienTuModel.FK_Donhang" ManuallyRouted="false" />
+        <AssociationConnector Association="WebDienTuModel.FK_SP" ManuallyRouted="false" />
+        <AssociationConnector Association="WebDienTuModel.FK__DanhGia__MaKH__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="WebDienTuModel.FK__DanhGia__MaSP__6E01572D" ManuallyRouted="false" />
+        <AssociationConnector Association="WebDienTuModel.FK_Khachhang" ManuallyRouted="false" />
+        <AssociationConnector Association="WebDienTuModel.FK_LoaiSP" ManuallyRouted="false" />
+        <AssociationConnector Association="WebDienTuModel.FK_NhaCC" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
